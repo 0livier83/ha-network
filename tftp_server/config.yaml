@@ -1,6 +1,6 @@
 name: "TFTP Server"
 description: "Temporary TFTP server for router flashing"
-version: "1.0.0"
+version: "1.0.1"
 slug: "tftp_server"
 arch:
   - amd64
@@ -10,3 +10,5 @@ boot: manual
 host_network: true
 map:
   - share:rw
+options: {}
+schema: {}
